@@ -1,0 +1,41 @@
+# reddit.cli
+
+reddit.cli is a command-line tool that fetches a random post from the front page of Reddit and either prints the post details or opens the post in a web browser.
+
+## Installation
+
+To use reddit.cli, you need to have Node.js installed on your system. You can download it from [https://nodejs.org](https://nodejs.org).
+
+Once you have Node.js installed, you can install reddit.cli globally using npm:
+
+npm install -g reddit.cli
+
+## Usage
+
+After installing reddit.cli, you can use it from the command line by typing `reddit` followed by optional flags.
+
+reddit [--print]
+
+This will fetch a random post from the front page of Reddit. If you use the `--print` flag, it will print the post details to the console. Without the `--print` flag, it will open the post in a web browser.
+
+### Flags
+
+- `--print`: Prints the details of the random post to the console. If this flag is not provided, the post will be opened in a web browser.
+
+## License
+
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for more information.
+
+## Dependencies
+
+reddit.cli has the following dependencies:
+
+- node-fetch: ^3.3.1
+- open: ^9.1.0
+- yargs: ^17.7.2
+
+These dependencies will be automatically installed when you run `npm install` to install reddit.cli.
+
+## Author
+
+This project was created by Christian Rodriguez
