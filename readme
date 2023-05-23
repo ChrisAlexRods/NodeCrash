@@ -22,10 +22,6 @@ This will fetch a random post from the front page of Reddit. If you use the `--p
 
 - `--print`: Prints the details of the random post to the console. If this flag is not provided, the post will be opened in a web browser.
 
-## License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for more information.
-
 ## Dependencies
 
 reddit.cli has the following dependencies:
